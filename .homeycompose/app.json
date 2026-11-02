@@ -1,0 +1,47 @@
+{
+  "id": "com.codearcade.solarflow",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "runtime": "nodejs",
+  "platforms": [
+    "local"
+  ],
+  "sdk": 3,
+  "brandColor": "#244c78",
+  "name": {
+    "en": "Solar Flow",
+    "nl": "Solar Flow"
+  },
+  "description": {
+    "en": "Turn solar readings into smarter, measurable energy decisions.",
+    "nl": "Zet zonnemetingen om in slimmere, meetbare energiekeuzes."
+  },
+  "category": "energy",
+  "tags": {
+    "en": [
+      "solar",
+      "energy",
+      "self-consumption",
+      "photovoltaics"
+    ],
+    "nl": [
+      "zonne-energie",
+      "energie",
+      "eigen verbruik",
+      "zonnepanelen"
+    ]
+  },
+  "images": {
+    "small": "/assets/store-small.png",
+    "large": "/assets/store-large.png",
+    "xlarge": "/assets/store-xlarge.png"
+  },
+  "author": {
+    "name": "CodeArcade"
+  },
+  "source": "https://github.com/CodeArcade-ctrl/solar-flow",
+  "homepage": "https://github.com/CodeArcade-ctrl/solar-flow",
+  "bugs": {
+    "url": "https://github.com/CodeArcade-ctrl/solar-flow/issues"
+  }
+}
