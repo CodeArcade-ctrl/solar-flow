@@ -22,6 +22,6 @@ jobs:
       - name: Install Homey CLI
         run: npm install --global homey
       - name: Build Homey app
-        run: homey app build
+        run: npm run build
       - name: Validate App Store package
         run: homey app validate --level publish

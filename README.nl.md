@@ -17,7 +17,7 @@ Voeg een actie toe om een waarde te berekenen en gebruik de uitvoertag daarna in
 
 ## Installeren en testen
 
-Installeer Node.js 24 of hoger en de [Homey CLI](https://apps.developer.homey.app/the-basics/getting-started). Voer `npm test` uit voor de berekeningstests en daarna `homey app build` en `homey app validate --level publish` om het Homey-pakket te controleren. Gebruik `homey app install` om een testversie te installeren op een Homey Pro die aan je ontwikkelaarsaccount is gekoppeld.
+Installeer Node.js 24 of hoger en de [Homey CLI](https://apps.developer.homey.app/the-basics/getting-started). Voer `npm test` uit voor de berekeningstests en daarna `npm run build` en `homey app validate --level publish` om het Homey-pakket te controleren. Het buildscript maakt eerst de genegeerde uitvoer van Homey Compose aan en start daarna de CLI. Gebruik `homey app install` om een testversie te installeren op een Homey Pro die aan je ontwikkelaarsaccount is gekoppeld.
 
 ## Store-release
 

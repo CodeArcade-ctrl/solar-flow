@@ -17,7 +17,7 @@ Add an action to calculate a value, then use its output tag in a later Advanced 
 
 ## Install and test
 
-Install Node.js 24 or newer and the [Homey CLI](https://apps.developer.homey.app/the-basics/getting-started). Run `npm test` for the calculation tests, then `homey app build` and `homey app validate --level publish` to check the Homey package. Use `homey app install` to install a test build on a Homey Pro linked to your developer account.
+Install Node.js 24 or newer and the [Homey CLI](https://apps.developer.homey.app/the-basics/getting-started). Run `npm test` for the calculation tests, then `npm run build` and `homey app validate --level publish` to check the Homey package. The build script prepares the ignored Homey Compose output before invoking the CLI. Use `homey app install` to install a test build on a Homey Pro linked to your developer account.
 
 ## Store release
 
