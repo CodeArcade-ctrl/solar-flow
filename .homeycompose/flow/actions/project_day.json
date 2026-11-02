@@ -34,8 +34,8 @@
     }
   ],
   "titleFormatted": {
-    "en": "Estimate savings from [[produced_kwh]] kWh at [[price_per_kwh]] per kWh",
-    "nl": "Schat besparing van [[produced_kwh]] kWh bij [[price_per_kwh]] per kWh"
+    "en": "Estimate savings from [[produced_kwh]] kWh at [[self_use_percent]]% self-use and [[price_per_kwh]] per kWh",
+    "nl": "Schat besparing van [[produced_kwh]] kWh bij [[self_use_percent]]% eigen verbruik en [[price_per_kwh]] per kWh"
   },
   "tokens": [
     {
