@@ -1,0 +1,5 @@
+app.json
+.homeybuild/
+.homeycache/
+node_modules/
+npm-debug.log*

@@ -1,0 +1,40 @@
+{
+  "title": {
+    "en": "Solar surplus reaches a target",
+    "nl": "Zonneoverschot haalt een doel"
+  },
+  "hint": {
+    "en": "Compares the supplied production and load readings. Both must use watts.",
+    "nl": "Vergelijkt de opgegeven productie- en verbruiksmeting. Gebruik voor beide watt."
+  },
+  "args": [
+    {
+      "name": "pv_w",
+      "type": "number",
+      "title": {
+        "en": "PV production (W)",
+        "nl": "Zonneproductie (W)"
+      }
+    },
+    {
+      "name": "load_w",
+      "type": "number",
+      "title": {
+        "en": "Home load (W)",
+        "nl": "Huisverbruik (W)"
+      }
+    },
+    {
+      "name": "threshold_w",
+      "type": "number",
+      "title": {
+        "en": "Required surplus (W)",
+        "nl": "Benodigd overschot (W)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "Surplus from [[pv_w]] W production and [[load_w]] W load reaches [[threshold_w]] W",
+    "nl": "Overschot van [[pv_w]] W productie en [[load_w]] W verbruik haalt [[threshold_w]] W"
+  }
+}

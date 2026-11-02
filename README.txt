@@ -1,0 +1,1 @@
+Make solar production useful in your Flows. Compare generated and exported power, estimate self-consumption, and translate daily production into potential energy savings. Connect your existing Homey sensor tags; calculations run locally.

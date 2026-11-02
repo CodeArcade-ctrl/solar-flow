@@ -1,0 +1,58 @@
+{
+  "title": {
+    "en": "Calculate solar self-consumption",
+    "nl": "Bereken eigen zonneverbruik"
+  },
+  "hint": {
+    "en": "Estimates how much solar power is used in the home. This is a snapshot, not an energy total.",
+    "nl": "Schat hoeveel zonnestroom thuis wordt gebruikt. Dit is een momentopname, geen energietotaal."
+  },
+  "args": [
+    {
+      "name": "pv_w",
+      "type": "number",
+      "title": {
+        "en": "PV production (W)",
+        "nl": "Zonneproductie (W)"
+      }
+    },
+    {
+      "name": "export_w",
+      "type": "number",
+      "title": {
+        "en": "Power exported (W)",
+        "nl": "Teruggeleverd vermogen (W)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "Calculate self-consumption from [[pv_w]] W PV and [[export_w]] W export",
+    "nl": "Bereken eigen verbruik uit [[pv_w]] W zon en [[export_w]] W teruglevering"
+  },
+  "tokens": [
+    {
+      "name": "self_consumption_w",
+      "type": "number",
+      "title": {
+        "en": "Self-consumed power (W)",
+        "nl": "Eigen verbruik (W)"
+      }
+    },
+    {
+      "name": "self_consumption_percent",
+      "type": "number",
+      "title": {
+        "en": "Self-consumption (%)",
+        "nl": "Eigen verbruik (%)"
+      }
+    },
+    {
+      "name": "exported_w",
+      "type": "number",
+      "title": {
+        "en": "Exported power (W)",
+        "nl": "Teruggeleverd vermogen (W)"
+      }
+    }
+  ]
+}

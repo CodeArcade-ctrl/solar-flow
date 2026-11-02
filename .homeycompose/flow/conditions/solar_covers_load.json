@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Solar production covers the load",
+    "nl": "Zonproductie dekt het verbruik"
+  },
+  "hint": {
+    "en": "Checks whether current production is at least the supplied home load.",
+    "nl": "Controleert of de huidige productie minstens gelijk is aan het opgegeven huisverbruik."
+  },
+  "args": [
+    {
+      "name": "pv_w",
+      "type": "number",
+      "title": {
+        "en": "PV production (W)",
+        "nl": "Zonneproductie (W)"
+      }
+    },
+    {
+      "name": "load_w",
+      "type": "number",
+      "title": {
+        "en": "Home load (W)",
+        "nl": "Huisverbruik (W)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "[[pv_w]] W production covers [[load_w]] W load",
+    "nl": "[[pv_w]] W productie dekt [[load_w]] W verbruik"
+  }
+}

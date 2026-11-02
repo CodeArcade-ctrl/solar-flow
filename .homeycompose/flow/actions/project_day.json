@@ -1,0 +1,66 @@
+{
+  "title": {
+    "en": "Estimate daily solar savings",
+    "nl": "Schat dagelijkse zonnebesparing"
+  },
+  "hint": {
+    "en": "An estimate based on production, self-use percentage, and the electricity price you enter.",
+    "nl": "Een schatting op basis van productie, percentage eigen verbruik en de ingevoerde stroomprijs."
+  },
+  "args": [
+    {
+      "name": "produced_kwh",
+      "type": "number",
+      "title": {
+        "en": "Production today (kWh)",
+        "nl": "Productie vandaag (kWh)"
+      }
+    },
+    {
+      "name": "self_use_percent",
+      "type": "number",
+      "title": {
+        "en": "Self-use (%)",
+        "nl": "Eigen verbruik (%)"
+      }
+    },
+    {
+      "name": "price_per_kwh",
+      "type": "number",
+      "title": {
+        "en": "Price per kWh",
+        "nl": "Prijs per kWh"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "Estimate savings from [[produced_kwh]] kWh at [[price_per_kwh]] per kWh",
+    "nl": "Schat besparing van [[produced_kwh]] kWh bij [[price_per_kwh]] per kWh"
+  },
+  "tokens": [
+    {
+      "name": "self_used_kwh",
+      "type": "number",
+      "title": {
+        "en": "Used in the home (kWh)",
+        "nl": "Thuis gebruikt (kWh)"
+      }
+    },
+    {
+      "name": "exported_kwh",
+      "type": "number",
+      "title": {
+        "en": "Estimated export (kWh)",
+        "nl": "Geschatte teruglevering (kWh)"
+      }
+    },
+    {
+      "name": "estimated_savings",
+      "type": "number",
+      "title": {
+        "en": "Estimated savings",
+        "nl": "Geschatte besparing"
+      }
+    }
+  ]
+}

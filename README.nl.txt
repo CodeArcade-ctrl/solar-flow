@@ -1,0 +1,1 @@
+Gebruik je zonnestroom in je Flows. Vergelijk opgewekt vermogen met teruglevering, schat het eigen verbruik en reken dagopbrengst om naar mogelijke besparingen. Koppel bestaande Homey-sensortags; de berekeningen blijven lokaal.
